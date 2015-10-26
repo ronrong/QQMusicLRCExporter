@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1AC5781AF8E8AB000051A7 /* DLLRCParser.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1AC5761AF8E8AB000051A7 /* DLLRCParser.h */; };
+		FA1AC5791AF8E8AB000051A7 /* DLLRCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1AC5771AF8E8AB000051A7 /* DLLRCParser.m */; };
+		FA287BBD1ABFC82600FA31A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA287BBC1ABFC82600FA31A5 /* Foundation.framework */; };
+		FA287BC81ABFC82600FA31A5 /* QQMusicHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA287BC71ABFC82600FA31A5 /* QQMusicHelper.mm */; };
+		FA287BD31ABFC86D00FA31A5 /* LyricManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA287BD21ABFC86D00FA31A5 /* LyricManager.h */; };
+		FA287BD51ABFCA3600FA31A5 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA287BD41ABFCA3600FA31A5 /* libsubstrate.dylib */; };
+		FA5C79511ABFCEED0099E1E1 /* SongInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5C794D1ABFCEED0099E1E1 /* SongInfo.h */; };
+		FA5C79531ABFCEED0099E1E1 /* SongInfoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5C794F1ABFCEED0099E1E1 /* SongInfoManager.h */; };
+		FA5C79561ABFCFE10099E1E1 /* QQMusicAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5C79551ABFCFE10099E1E1 /* QQMusicAppDelegate.h */; };
+		FA5C795C1ABFD2630099E1E1 /* IO.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5C795B1ABFD2630099E1E1 /* IO.h */; };
+		FA5C79601ABFDA8A0099E1E1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5C795F1ABFDA8A0099E1E1 /* libsqlite3.dylib */; };
+		FA5C79631ABFFBB90099E1E1 /* SQLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5C79611ABFFBB90099E1E1 /* SQLHelper.h */; };
+		FA5C79641ABFFBB90099E1E1 /* SQLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C79621ABFFBB90099E1E1 /* SQLHelper.m */; };
+		FA607D401AED3E6D0094815D /* QQMusicDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = FA607D3E1AED3E6D0094815D /* QQMusicDumper.h */; };
+		FA607D411AED3E6D0094815D /* QQMusicDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA607D3F1AED3E6D0094815D /* QQMusicDumper.m */; };
+		FA607D431AED431D0094815D /* QQLyricParse.h in Headers */ = {isa = PBXBuildFile; fileRef = FA607D421AED431D0094815D /* QQLyricParse.h */; };
+		FA607D451AED55D30094815D /* QQLineLyricQRC.h in Headers */ = {isa = PBXBuildFile; fileRef = FA607D441AED55D30094815D /* QQLineLyricQRC.h */; };
+		FA607D471AED55F00094815D /* QQLineLyric.h in Headers */ = {isa = PBXBuildFile; fileRef = FA607D461AED55F00094815D /* QQLineLyric.h */; };
+		FACB6FA71AE8D83F003003B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACB6FA61AE8D83F003003B6 /* UIKit.framework */; };
+		FAD658CA1AEE700F001260CC /* UserSession.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD658C91AEE700F001260CC /* UserSession.h */; };
+		FAD658CC1AEE7088001260CC /* DownLoadingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD658CB1AEE7088001260CC /* DownLoadingViewController.h */; };
+		FAD658D01AEE70F1001260CC /* QQUser.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD658CF1AEE70F1001260CC /* QQUser.h */; };
+		FAFEA3191AEE567D00695006 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFEA3181AEE567D00695006 /* CrashReporter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA1AC5761AF8E8AB000051A7 /* DLLRCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLRCParser.h; sourceTree = "<group>"; };
+		FA1AC5771AF8E8AB000051A7 /* DLLRCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLRCParser.m; sourceTree = "<group>"; };
+		FA287BB91ABFC82600FA31A5 /* QQMusicHelper.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = QQMusicHelper.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA287BBC1ABFC82600FA31A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA287BC11ABFC82600FA31A5 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		FA287BC21ABFC82600FA31A5 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		FA287BC41ABFC82600FA31A5 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		FA287BC51ABFC82600FA31A5 /* QQMusicHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QQMusicHelper-Prefix.pch"; sourceTree = "<group>"; };
+		FA287BC71ABFC82600FA31A5 /* QQMusicHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QQMusicHelper.mm; sourceTree = "<group>"; };
+		FA287BCC1ABFC82600FA31A5 /* QQMusicHelper.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = QQMusicHelper.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/QQMusicHelper.plist; sourceTree = "<group>"; };
+		FA287BD21ABFC86D00FA31A5 /* LyricManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricManager.h; sourceTree = "<group>"; };
+		FA287BD41ABFCA3600FA31A5 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsubstrate.dylib; sourceTree = "<group>"; };
+		FA5C794D1ABFCEED0099E1E1 /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
+		FA5C794F1ABFCEED0099E1E1 /* SongInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfoManager.h; sourceTree = "<group>"; };
+		FA5C79551ABFCFE10099E1E1 /* QQMusicAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQMusicAppDelegate.h; sourceTree = "<group>"; };
+		FA5C795B1ABFD2630099E1E1 /* IO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO.h; sourceTree = "<group>"; };
+		FA5C795F1ABFDA8A0099E1E1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FA5C79611ABFFBB90099E1E1 /* SQLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLHelper.h; sourceTree = "<group>"; };
+		FA5C79621ABFFBB90099E1E1 /* SQLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLHelper.m; sourceTree = "<group>"; };
+		FA607D3E1AED3E6D0094815D /* QQMusicDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQMusicDumper.h; sourceTree = "<group>"; };
+		FA607D3F1AED3E6D0094815D /* QQMusicDumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQMusicDumper.m; sourceTree = "<group>"; };
+		FA607D421AED431D0094815D /* QQLyricParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQLyricParse.h; sourceTree = "<group>"; };
+		FA607D441AED55D30094815D /* QQLineLyricQRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQLineLyricQRC.h; sourceTree = "<group>"; };
+		FA607D461AED55F00094815D /* QQLineLyric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQLineLyric.h; sourceTree = "<group>"; };
+		FABE66B01AEE3BA40095E61A /* en */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = en; path = en.lproj/QQMusicHelper.xm; sourceTree = "<group>"; };
+		FACB6FA61AE8D83F003003B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAD658C91AEE700F001260CC /* UserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSession.h; sourceTree = "<group>"; };
+		FAD658CB1AEE7088001260CC /* DownLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadingViewController.h; sourceTree = "<group>"; };
+		FAD658CF1AEE70F1001260CC /* QQUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQUser.h; sourceTree = "<group>"; };
+		FAFEA3181AEE567D00695006 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA287BB51ABFC82600FA31A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFEA3191AEE567D00695006 /* CrashReporter.framework in Frameworks */,
+				FACB6FA71AE8D83F003003B6 /* UIKit.framework in Frameworks */,
+				FA5C79601ABFDA8A0099E1E1 /* libsqlite3.dylib in Frameworks */,
+				FA287BD51ABFCA3600FA31A5 /* libsubstrate.dylib in Frameworks */,
+				FA287BBD1ABFC82600FA31A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA287BAE1ABFC82600FA31A5 = {
+			isa = PBXGroup;
+			children = (
+				FA287BBE1ABFC82600FA31A5 /* QQMusicHelper */,
+				FA287BBB1ABFC82600FA31A5 /* Frameworks */,
+				FA287BBA1ABFC82600FA31A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA287BBA1ABFC82600FA31A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA287BB91ABFC82600FA31A5 /* QQMusicHelper.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA287BBB1ABFC82600FA31A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FACB6FA61AE8D83F003003B6 /* UIKit.framework */,
+				FA5C795F1ABFDA8A0099E1E1 /* libsqlite3.dylib */,
+				FA287BD41ABFCA3600FA31A5 /* libsubstrate.dylib */,
+				FAFEA3181AEE567D00695006 /* CrashReporter.framework */,
+				FA287BBC1ABFC82600FA31A5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA287BBE1ABFC82600FA31A5 /* QQMusicHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C795B1ABFD2630099E1E1 /* IO.h */,
+				FAD658CE1AEE70A8001260CC /* Headers */,
+				FA5C79611ABFFBB90099E1E1 /* SQLHelper.h */,
+				FA5C79621ABFFBB90099E1E1 /* SQLHelper.m */,
+				FA607D3E1AED3E6D0094815D /* QQMusicDumper.h */,
+				FA607D3F1AED3E6D0094815D /* QQMusicDumper.m */,
+				FABE66B11AEE3BA40095E61A /* QQMusicHelper.xm */,
+				FA287BC71ABFC82600FA31A5 /* QQMusicHelper.mm */,
+				FA1AC5761AF8E8AB000051A7 /* DLLRCParser.h */,
+				FA1AC5771AF8E8AB000051A7 /* DLLRCParser.m */,
+				FA287BBF1ABFC82600FA31A5 /* Package */,
+				FA287BC31ABFC82600FA31A5 /* Supporting Files */,
+			);
+			path = QQMusicHelper;
+			sourceTree = "<group>";
+		};
+		FA287BBF1ABFC82600FA31A5 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				FA287BC01ABFC82600FA31A5 /* DEBIAN */,
+				FA287BC91ABFC82600FA31A5 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		FA287BC01ABFC82600FA31A5 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				FA287BC11ABFC82600FA31A5 /* control.txt */,
+				FA287BC21ABFC82600FA31A5 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		FA287BC31ABFC82600FA31A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA287BC41ABFC82600FA31A5 /* PackageVersion.plist */,
+				FA287BC51ABFC82600FA31A5 /* QQMusicHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA287BC91ABFC82600FA31A5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FA287BCA1ABFC82600FA31A5 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		FA287BCA1ABFC82600FA31A5 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				FA287BCB1ABFC82600FA31A5 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		FA287BCB1ABFC82600FA31A5 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				FA287BCC1ABFC82600FA31A5 /* QQMusicHelper.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		FAD658CE1AEE70A8001260CC /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FA287BD21ABFC86D00FA31A5 /* LyricManager.h */,
+				FAD658CF1AEE70F1001260CC /* QQUser.h */,
+				FA5C794D1ABFCEED0099E1E1 /* SongInfo.h */,
+				FA5C79551ABFCFE10099E1E1 /* QQMusicAppDelegate.h */,
+				FAD658C91AEE700F001260CC /* UserSession.h */,
+				FA607D421AED431D0094815D /* QQLyricParse.h */,
+				FAD658CB1AEE7088001260CC /* DownLoadingViewController.h */,
+				FA5C794F1ABFCEED0099E1E1 /* SongInfoManager.h */,
+				FA607D441AED55D30094815D /* QQLineLyricQRC.h */,
+				FA607D461AED55F00094815D /* QQLineLyric.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA287BB61ABFC82600FA31A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5C79531ABFCEED0099E1E1 /* SongInfoManager.h in Headers */,
+				FAD658D01AEE70F1001260CC /* QQUser.h in Headers */,
+				FA5C79631ABFFBB90099E1E1 /* SQLHelper.h in Headers */,
+				FA607D401AED3E6D0094815D /* QQMusicDumper.h in Headers */,
+				FA287BD31ABFC86D00FA31A5 /* LyricManager.h in Headers */,
+				FA607D431AED431D0094815D /* QQLyricParse.h in Headers */,
+				FA5C795C1ABFD2630099E1E1 /* IO.h in Headers */,
+				FAD658CC1AEE7088001260CC /* DownLoadingViewController.h in Headers */,
+				FA5C79561ABFCFE10099E1E1 /* QQMusicAppDelegate.h in Headers */,
+				FA1AC5781AF8E8AB000051A7 /* DLLRCParser.h in Headers */,
+				FAD658CA1AEE700F001260CC /* UserSession.h in Headers */,
+				FA5C79511ABFCEED0099E1E1 /* SongInfo.h in Headers */,
+				FA607D471AED55F00094815D /* QQLineLyric.h in Headers */,
+				FA607D451AED55D30094815D /* QQLineLyricQRC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA287BB81ABFC82600FA31A5 /* QQMusicHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA287BCF1ABFC82600FA31A5 /* Build configuration list for PBXNativeTarget "QQMusicHelper" */;
+			buildPhases = (
+				FA287BB31ABFC82600FA31A5 /* ShellScript */,
+				FA287BB41ABFC82600FA31A5 /* Sources */,
+				FA287BB51ABFC82600FA31A5 /* Frameworks */,
+				FA287BB61ABFC82600FA31A5 /* Headers */,
+				FA287BB71ABFC82600FA31A5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQMusicHelper;
+			productName = QQMusicHelper;
+			productReference = FA287BB91ABFC82600FA31A5 /* QQMusicHelper.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA287BAF1ABFC82600FA31A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					FA287BB81ABFC82600FA31A5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FA287BB21ABFC82600FA31A5 /* Build configuration list for PBXProject "QQMusicHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA287BAE1ABFC82600FA31A5;
+			productRefGroup = FA287BBA1ABFC82600FA31A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA287BB81ABFC82600FA31A5 /* QQMusicHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA287BB31ABFC82600FA31A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		FA287BB71ABFC82600FA31A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA287BB41ABFC82600FA31A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5C79641ABFFBB90099E1E1 /* SQLHelper.m in Sources */,
+				FA607D411AED3E6D0094815D /* QQMusicDumper.m in Sources */,
+				FA1AC5791AF8E8AB000051A7 /* DLLRCParser.m in Sources */,
+				FA287BC81ABFC82600FA31A5 /* QQMusicHelper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FABE66B11AEE3BA40095E61A /* QQMusicHelper.xm */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABE66B01AEE3BA40095E61A /* en */,
+			);
+			name = QQMusicHelper.xm;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA287BCD1ABFC82600FA31A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = "armv7 arm64";
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		FA287BCE1ABFC82600FA31A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		FA287BD01ABFC82600FA31A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQMusicHelper/QQMusicHelper-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		FA287BD11ABFC82600FA31A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQMusicHelper/QQMusicHelper-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA287BB21ABFC82600FA31A5 /* Build configuration list for PBXProject "QQMusicHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA287BCD1ABFC82600FA31A5 /* Debug */,
+				FA287BCE1ABFC82600FA31A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA287BCF1ABFC82600FA31A5 /* Build configuration list for PBXNativeTarget "QQMusicHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA287BD01ABFC82600FA31A5 /* Debug */,
+				FA287BD11ABFC82600FA31A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA287BAF1ABFC82600FA31A5 /* Project object */;
+}
